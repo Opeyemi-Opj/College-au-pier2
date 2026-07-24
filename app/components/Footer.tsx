@@ -12,14 +12,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Logo Section */}
           <div>
-           <Link href="/">
-          <Image
+           <Link href="/"> <Image
           src="/images/logo.png"
           alt="College Au Pier Logo"
           width={100}
           height={60}
-          className="rounded-[16px]"
-          />
+          className="rounded-[16px]"/>
           </Link>
 
             <p className="text-[16px] leading-[24px] text-[#E4E7EC] max-w-[500px] mt-6">
