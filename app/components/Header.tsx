@@ -24,15 +24,13 @@ const Header = () => {
 
             <Link
               href="/"
-              className="text-[14px] font-medium text-[#1E1E1E]"
-            >
+              className="text-[14px] font-medium text-[#1E1E1E]">
               Home
             </Link>
 
             <Link
               href="/our-service"
-              className="text-[14px] font-medium text-[#1E1E1E]"
-            >
+              className="text-[14px] font-medium text-[#1E1E1E]">
               Our Services
             </Link>
 
@@ -83,8 +81,7 @@ const Header = () => {
                     hover:text-white
                     rounded-t-[8px]
                     transition
-                  "
-                >
+                  ">
                   <Image
                     src="/images/Group.png"
                     alt="Who We Are"
