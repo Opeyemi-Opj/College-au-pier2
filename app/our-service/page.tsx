@@ -34,7 +34,7 @@ const page = () => {
       alt="University Admissions"
       width={522}
       height={537}
-      className="h-auto w-full object-contain"/>
+    className="h-auto w-full max-w-[522px] object-contain"/> 
   </div>
 
   {/* Right Column - Content */}
@@ -56,12 +56,12 @@ const page = () => {
       <span>Book a consultant</span>
 
       <FiArrowUpRight
-        className="h-7 w-8 rotate-[-10deg] transition-transform duration-300 group-hover:rotate-[45deg]"
-      />
+        className="h-7 w-8 rotate-[-10deg] transition-transform duration-300 group-hover:rotate-[45deg]"/>
     </button>
-  </div>import Form from "./components/Form";
-
+  </div>
 </section>
+
+
 
 <section className="flex flex-col gap-[10%] bg-[#F9F9F9] px-[5%] py-12 sm:py-16 md:flex-row md:items-center md:gap-12 md:py-20 lg:gap-16">
   
@@ -70,7 +70,6 @@ const page = () => {
     <h2 className="font-['OpenSauceOne-Medium'] text-[30px] font-bold leading-[1.25] text-[#1B1C1E] sm:text-[34px] md:text-[36px] lg:text-[38px]">
       Test Preparation
     </h2>
-
     <p className="mt-5 font-['OpenSauceOne-Regular'] text-[16px] font-normal leading-8 text-[#474849]">
       Achieve your best scores with our comprehensive test preparation
       programs. We provide courses and materials for the SAT, ACT, TOEFL,
@@ -79,6 +78,12 @@ const page = () => {
       methodologies and personalized learning approaches to ensure you grasp
       the material effectively and perform confidently on test day.
     </p>
+     <button className="group mt-6 flex items-center justify-center gap-3 rounded-[40px] bg-[#2379F4] px-6 py-3 font-['OpenSauceOne-Medium'] text-[16px] font-medium text-[#FFFFFF] transition duration-300 hover:bg-[#2379F4]">
+      <span>Prepare for your test</span>
+
+      <FiArrowUpRight
+        className="h-7 w-8 rotate-[-10deg] transition-transform duration-300 group-hover:rotate-[45deg]"/>
+    </button>
   </div>
 
   {/* Right Column - Image */}
