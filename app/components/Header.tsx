@@ -46,7 +46,6 @@ const Header = () => {
                   font-medium
                   text-[#1E1E1E]">
                 About Us
-
                 <FaAngleDown
                   size={20}
                   className="
@@ -72,22 +71,16 @@ const Header = () => {
                   transition-all
                   duration-300">
 
-                <Link
-                  href="/aboutus/who-we-are"
-                  className="
-                    flex items-center gap-5
-                    p-4
+                <Link href="/who-we-are" className=" flex items-center gap-5 p-4
                     hover:bg-[#2379F4]
                     hover:text-white
                     rounded-t-[8px]
-                    transition
-                  ">
+                    transition">
                   <Image
                     src="/images/Group.png"
                     alt="Who We Are"
                     width={30}
-                    height={30}
-                  />
+                    height={30}/>
                   <span>Who We Are</span>
                 </Link>
 
@@ -98,8 +91,7 @@ const Header = () => {
                     p-4
                     hover:bg-[#2379F4]
                     hover:text-white
-                    transition
-                  ">
+                    transition">
                   <Image
                     src="/images/fairytale_6358301 1.png"
                     alt="Success Stories"
@@ -117,15 +109,12 @@ const Header = () => {
                     hover:bg-[#2379F4]
                     hover:text-white
                     rounded-b-[8px]
-                    transition
-                  "
-                >
+                    transition">
                   <Image
                     src="/images/Group2.png"
                     alt="Careers"
                     width={30}
-                    height={30}
-                  />
+                    height={30}/>
                   <span>Careers</span>
                 </Link>
               </div>
@@ -133,15 +122,13 @@ const Header = () => {
 
             <Link
               href="/resources"
-              className="text-[14px] font-medium text-[#1E1E1E]"
-            >
+              className="text-[14px] font-medium text-[#1E1E1E]">
               Resources
             </Link>
 
             <Link
               href="/contact"
-              className="text-[14px] font-medium text-[#1E1E1E]"
-            >
+              className="text-[14px] font-medium text-[#1E1E1E]">
               Contact Us
             </Link>
 
@@ -161,8 +148,7 @@ const Header = () => {
                 font-medium
                 hover:bg-blue-600
                 transition
-              "
-            >
+              ">
               Book a Consultation
             </Link>
           </div>

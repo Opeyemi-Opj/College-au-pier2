@@ -297,8 +297,7 @@ const [openItem, setOpenItem] = useState("0");
 
  
 {/* Testimonial Section */}
-<section
-  className="bg-cover bg-center bg-no-repeat"
+<section className="bg-cover bg-center bg-no-repeat"
   style={{
     backgroundImage: "url('/images/Blackbgimg.png')",
   }}>
