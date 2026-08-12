@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Form from "../components/Form";
 import { FiArrowUpRight } from "react-icons/fi";
 const Page = () => {
   return (
@@ -327,6 +328,10 @@ const Page = () => {
 
   </div>
 
+</section>
+
+<section>
+  <Form />
 </section>
 
     </main>
